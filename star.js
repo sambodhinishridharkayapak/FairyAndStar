@@ -7,6 +7,7 @@ class star
             'restitution':1.5,
             'friction':0.3,
             'density':1.0,
+            isStatic:false
         }
 
         this.image = loadImage("star.png");
