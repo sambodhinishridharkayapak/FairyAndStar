@@ -9,7 +9,7 @@ class stars
             'density':1.0,
         }
 
-        this.image = loadImage("images/star.png");
+        this.image = loadImage("star.png");
         this.body= Bodies.rectangle(x , y , width,height,options);
         this.width=width;
         this.height=height;
