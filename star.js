@@ -1,4 +1,4 @@
-class stars
+class star
 {
     constructor(x,y,width,height)
     {
