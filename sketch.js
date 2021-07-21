@@ -40,15 +40,15 @@ function setup() {
      
 	
 	Engine.run(engine);
-    star=new stars(200,200,50,50);
-	star2=new stars(300,200,30,30);
-    star3=new stars(400,200,10,10);
-	star4=new stars(500,200,20,20);
-	star5=new stars(600,200,15,15);
-	star6=new stars(700,200,20,20);
-	star7=new stars(800,200,40,40);
-	star8=new stars(100,200,20,20);
-	star9=new stars(50,200,10,10);
+    star=new star(200,200,50,50);
+	star2=new star(300,200,30,30);
+    star3=new star(400,200,10,10);
+	star4=new star(500,200,20,20);
+	star5=new star(600,200,15,15);
+	star6=new star(700,200,20,20);
+	star7=new star(800,200,40,40);
+	star8=new star(100,200,20,20);
+	star9=new star(50,200,10,10);
 
 	land=new ground(400,740,800,20);
 	land.visible =false;
